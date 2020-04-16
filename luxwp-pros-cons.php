@@ -3,7 +3,7 @@
  * Plugin Name: LuxWP: Pros & Cons
  * Plugin URI: https://luxwp.com/
  * Description: This plugin provides you the shortcode to show pros/cons on any of the page.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: LuxWP
  * Author URI: https://luxwp.com
  * Text Domain: luxwp-pros-cons
@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
 define( 'LPC_PLUGIN_FILE', __FILE__ );
 define( 'LPC_PATH', plugin_dir_path( LPC_PLUGIN_FILE ) );
 define( 'LPC_URL', plugin_dir_url( LPC_PLUGIN_FILE ) );
-define( 'LPC_VERSION', '1.0.2' );
+define( 'LPC_VERSION', '1.0.3' );
 
 require_once LPC_PATH . 'vendor/autoload.php';
 

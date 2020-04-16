@@ -11,6 +11,25 @@ Requires PHP: 5.6.28
 
 This plugin provides you the shortcode to show pros/cons on any of the page.
 
+Use:
+
+[lpcs columns="2"]
+	[lpc type="pros" title="Ưu điểm"]
+		<ul>
+		<li>121212</li>
+		<li>1001010</li>
+		<li>8181881</li>
+		</ul>
+	[/lpc]
+	[lpc type="cons" title="Nhược điểm"]
+		<ul>
+		<li>Thiết kế dạng tuýp cùng chất kem đặc khi dùng hết sản phẩm sẽ hơi khó bóp kem</li>
+		<li>Thiết kế bao bì có in chữ Trung Quốc dành cho thị trường châu Á dễ gây mất thiện cảm với một số người dùng</li>
+		<li>Có chứa cồn</li>
+		</ul>
+	[/lpc]
+[/lpcs]
+
 == Installation ==
 
 1. Upload the `luxwp-pros-cons` folder to the `/wp-content/plugins/` directory
@@ -33,6 +52,9 @@ Main plugins from Pixel+:
 * <a href="https://wordpress.org/plugins/better-categories-images/" rel="friend">Better Categories Images:</a> The Better Categories Images Plugin allow you to add image with any category or taxonomy.
 
 == Changelog ==
+
+= 1.0.3 =
+* Fix bugs.
 
 = 1.0.2 =
 * Readme.txt.

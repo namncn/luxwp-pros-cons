@@ -36,7 +36,7 @@ class LPC_Shortcodes {
 	public static function lpcs( $atts, $content ) {
 		// @codingStandardsIgnoreStart
 		$atts = shortcode_atts( array(
-			'column' => '2',
+			'columns' => '2',
 		), $atts, 'lpcs' );
 		// @codingStandardsIgnoreEnd
 
@@ -44,7 +44,7 @@ class LPC_Shortcodes {
 		?>
 
 		<?php // @codingStandardsIgnoreStart ?>
-		<div class="lpc-wrapper lpc-columns-<?php echo $atts['column'] ? $atts['column'] : '2'; ?>">
+		<div class="lpc-wrapper lpc-columns-<?php echo $atts['columns'] ? $atts['columns'] : '2'; ?>">
 			<?php echo do_shortcode( wp_kses( $content, array( 'div' => array(), 'ul' => array(), 'li' => array() ) ) ); ?>
 		</div>
 		<?php // @codingStandardsIgnoreEnd ?>
