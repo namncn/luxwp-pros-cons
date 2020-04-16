@@ -13,7 +13,7 @@ This plugin provides you the shortcode to show pros/cons on any of the page.
 
 Use:
 
-[lpcs columns="2"]
+`[lpcs columns="2"]
 	[lpc type="pros" title="Ưu điểm"]
 		<ul>
 		<li>121212</li>
@@ -28,7 +28,7 @@ Use:
 		<li>Có chứa cồn</li>
 		</ul>
 	[/lpc]
-[/lpcs]
+[/lpcs]`
 
 == Installation ==
 
@@ -52,6 +52,9 @@ Main plugins from Pixel+:
 * <a href="https://wordpress.org/plugins/better-categories-images/" rel="friend">Better Categories Images:</a> The Better Categories Images Plugin allow you to add image with any category or taxonomy.
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix bugs.
 
 = 1.0.3 =
 * Fix bugs.
