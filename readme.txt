@@ -16,16 +16,18 @@ Use:
 `[lpcs columns="2"]
 	[lpc type="pros" title="Ưu điểm"]
 		<ul>
-		<li>121212</li>
-		<li>1001010</li>
-		<li>8181881</li>
+			<li>Dạng gel với vòi nhấn tiện dụng</li>
+			<li>Dễ dàng tạo bọt và làm sạch da nhanh chóng</li>
+			<li>Giúp làm sạch sâu bụi bẩn, dầu thừa trên da</li>
+			<li>Giá khá rẻ, chỉ 140.000 đồng/1 chai 150mlDễ dàng tìm mua vì đã được phân phối chính thức</li>
+			<li>Yên tâm mua hàng vì không sợ hàng nhái, hàng giả</li>
 		</ul>
 	[/lpc]
 	[lpc type="cons" title="Nhược điểm"]
 		<ul>
-		<li>Thiết kế dạng tuýp cùng chất kem đặc khi dùng hết sản phẩm sẽ hơi khó bóp kem</li>
-		<li>Thiết kế bao bì có in chữ Trung Quốc dành cho thị trường châu Á dễ gây mất thiện cảm với một số người dùng</li>
-		<li>Có chứa cồn</li>
+			<li>Thiết kế dạng tuýp cùng chất kem đặc khi dùng hết sản phẩm sẽ hơi khó bóp kem</li>
+			<li>Thiết kế bao bì có in chữ Trung Quốc dành cho thị trường châu Á dễ gây mất thiện cảm với một số người dùng</li>
+			<li>Có chứa cồn</li>
 		</ul>
 	[/lpc]
 [/lpcs]`
