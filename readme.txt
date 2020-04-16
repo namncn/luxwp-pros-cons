@@ -42,5 +42,8 @@ Main plugins from Pixel+:
 
 == Changelog ==
 
+= 1.0.1 =
+* Test update.
+
 = 1.0.0 =
 * First release.
