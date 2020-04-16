@@ -68,7 +68,7 @@ final class Luxwp_Pros_Cons {
 	private function init_hooks() {
 		add_action( 'plugins_loaded', array( $this, 'on_plugins_loaded' ), -1 );
 		add_action( 'init', array( $this, 'init' ), 0 );
-		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue' ), 999 );
 		add_action( 'init', array( 'LPC_Shortcodes', 'init' ) );
 	}
 
