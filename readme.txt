@@ -13,14 +13,6 @@ This plugin provides you the shortcode to show pros/cons on any of the page.
 
 == Installation ==
 
-=== From within WordPress ===
-
-1. Visit 'Plugins > Add New'
-2. Search for 'LuxWP: Pros & Cons'
-3. Activate LuxWP: Pros & Cons from your Plugins page.
-
-=== Manually ===
-
 1. Upload the `luxwp-pros-cons` folder to the `/wp-content/plugins/` directory
 2. Activate the LuxWP: Pros & Cons plugin through the 'Plugins' menu in WordPress
 3. Go to "after activation" below.
@@ -41,6 +33,9 @@ Main plugins from Pixel+:
 * <a href="https://wordpress.org/plugins/better-categories-images/" rel="friend">Better Categories Images:</a> The Better Categories Images Plugin allow you to add image with any category or taxonomy.
 
 == Changelog ==
+
+= 1.0.2 =
+* Readme.txt.
 
 = 1.0.1 =
 * Test update.
