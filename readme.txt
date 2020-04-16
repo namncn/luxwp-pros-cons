@@ -55,6 +55,12 @@ Main plugins from Pixel+:
 
 == Changelog ==
 
+= 1.0.6 =
+* Fix CSS.
+
+= 1.0.5 =
+* Fix bugs.
+
 = 1.0.4 =
 * Fix bugs.
 

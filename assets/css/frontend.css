@@ -3,8 +3,9 @@
     grid-column-gap: 4%;
     grid-row-gap: 20px;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: inherit;
     font-size: 1.4rem;
+    clear: both;
 }
 
 .lpc-wrapper.lpc-columns-2 {
@@ -14,6 +15,8 @@
 .lpc-column .lpc-title {
     margin: 0 0 15px 0;
     font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .lpc-column.lpc-pros .lpc-title {
@@ -31,8 +34,9 @@
 }
 
 .lpc-column ul li {
-    list-style: none !important;
     margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 .lpc-column ul li:last-child {
@@ -44,6 +48,8 @@
     padding-right: 8px;
     font-weight: 900;
     vertical-align: top;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
 }
 
 .lpc-column.lpc-pros ul li:before {
