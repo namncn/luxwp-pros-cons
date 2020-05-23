@@ -55,6 +55,9 @@ Main plugins from Pixel+:
 
 == Changelog ==
 
+= 1.0.7 =
+* Fix CSS Font Awesome 5 Free.
+
 = 1.0.6 =
 * Fix CSS.
 

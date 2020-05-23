@@ -124,8 +124,7 @@ final class Luxwp_Pros_Cons {
 	 * Enqueue style & scripts.
 	 */
 	public function enqueue() {
-		wp_enqueue_style( 'fontawesome', LPC_URL . 'assets/css/fontawesome.min.css', array(), '5.13.0' );
-		wp_enqueue_style( 'fontawesome-solid', LPC_URL . 'assets/css/solid.min.css', array(), '5.13.0' );
+		wp_enqueue_style( 'fontawesome', LPC_URL . 'assets/css/all.min.css', array(), '5.13.0' );
 		wp_enqueue_style( 'lpc-frontend', LPC_URL . 'assets/css/frontend.css', array(), LPC_VERSION );
 	}
 }
